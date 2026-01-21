@@ -27,7 +27,7 @@
     echo "[" . implode(", ", $numbers) . "];";
     /*Hàm implode: Nhặt phần tử trong mảng ghép lại,
     không cần truy suất khai báo phần tử đó ở vị trí nào trong mảng => in ra ngắn gọn*/
-    //Đoạn này của Tam, Tự giải thích thêm để hiểu...Not someone else's
+    //tam...Not someone else's
     ?>
 </body>
 </html>

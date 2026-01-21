@@ -48,7 +48,7 @@
         });
         
         echo "<table border='1' cellpadding='5' style='border-collapse:collapse; width:100%'>";
-        echo "<tr style='background:#eee'><th>Tên</th><th>Phái</th><th>Toán</th><th>Văn</th><th>Anh</th><th>Điểm TB</th></tr>";
+        echo "<tr style='background:#eee'><th>Tên</th><th>GT</th><th>Toán</th><th>Văn</th><th>Anh</th><th>Điểm TB</th></tr>";
         foreach ($mang as $s) {
             echo "<tr><td>{$s['name']}</td><td>{$s['gender']}</td><td>{$s['math']}</td><td>{$s['lit']}</td><td>{$s['eng']}</td><td><b>{$s['avg']}</b></td></tr>";
         }
